@@ -3,8 +3,7 @@
     139.714776,
     35.700768
   ],
-  "glyphs": "https://optgeo.github.io/bvmap714:443/fonts/{fontstack}/{range}.pbf",
-  "host": "optgeo.github.io/bvmap714",
+  "glyphs": "https://optgeo.github.io/bvmap714/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -49,15 +48,14 @@
       "type": "line"
     }
   ],
-  "port": 443,
-  "scheme": "https",
+  "location": "https://optgeo.github.io/bvmap714",
   "sources": {
     "v": {
       "attribution": "GSI",
       "maxzoom": 14,
       "minzoom": 7,
       "tiles": [
-        "https://optgeo.github.io/bvmap714:443/zxy/{z}/{x}/{y}.pbf"
+        "https://optgeo.github.io/bvmap714/zxy/{z}/{x}/{y}.pbf"
       ],
       "type": "vector"
     }
