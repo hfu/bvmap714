@@ -1,0 +1,67 @@
+{
+  "center": [
+    139.714776,
+    35.700768
+  ],
+  "glyphs": "https://optgeo.github.io/bvmap714:443/fonts/{fontstack}/{range}.pbf",
+  "host": "optgeo.github.io/bvmap714",
+  "layers": [
+    {
+      "id": "background",
+      "paint": {
+        "background-color": [
+          "rgb",
+          243,
+          245,
+          250
+        ]
+      },
+      "type": "background"
+    },
+    {
+      "id": "coastline",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "coastline",
+      "type": "line"
+    },
+    {
+      "id": "contour",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          200,
+          160,
+          60
+        ]
+      },
+      "source": "v",
+      "source-layer": "contour",
+      "type": "line"
+    }
+  ],
+  "port": 443,
+  "scheme": "https",
+  "sources": {
+    "v": {
+      "attribution": "GSI",
+      "maxzoom": 14,
+      "minzoom": 7,
+      "tiles": [
+        "https://optgeo.github.io/bvmap714:443/zxy/{z}/{x}/{y}.pbf"
+      ],
+      "type": "vector"
+    }
+  },
+  "version": 8,
+  "zoom": 11
+}
