@@ -33,6 +33,55 @@
       "type": "line"
     },
     {
+      "id": "river",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "river",
+      "type": "line"
+    },
+    {
+      "id": "lake",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "lake",
+      "type": "line"
+    },
+    {
+      "id": "searoute",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ],
+        "line-dasharray": [
+          6,
+          6
+        ]
+      },
+      "source": "v",
+      "source-layer": "searoute",
+      "type": "line"
+    },
+    {
       "id": "contour",
       "layout": {},
       "paint": {
@@ -45,6 +94,96 @@
       },
       "source": "v",
       "source-layer": "contour",
+      "type": "line"
+    },
+    {
+      "id": "landforml",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          200,
+          160,
+          60
+        ]
+      },
+      "source": "v",
+      "source-layer": "landforml",
+      "type": "line"
+    },
+    {
+      "id": "boundary",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          68,
+          0,
+          128
+        ]
+      },
+      "source": "v",
+      "source-layer": "boundary",
+      "type": "line"
+    },
+    {
+      "id": "road",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ]
+      },
+      "source": "v",
+      "source-layer": "road",
+      "type": "line"
+    },
+    {
+      "id": "railway",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ]
+      },
+      "source": "v",
+      "source-layer": "railway",
+      "type": "line"
+    },
+    {
+      "id": "structurel",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ]
+      },
+      "source": "v",
+      "source-layer": "structurel",
+      "type": "line"
+    },
+    {
+      "id": "transl",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          0,
+          0,
+          0
+        ]
+      },
+      "source": "v",
+      "source-layer": "transl",
       "type": "line"
     }
   ],
