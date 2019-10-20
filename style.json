@@ -274,6 +274,14 @@
       "type": "symbol"
     }
   ],
+  "light": {
+    "intensity": 0.2,
+    "position": [
+      1.5,
+      210,
+      30
+    ]
+  },
   "location": "https://optgeo.github.io/bvmap714",
   "sources": {
     "v": {
