@@ -15,3 +15,7 @@ task :_mapbox do
   sh "cp ../mapbox-gl-js/dist/mapbox-gl.css ."
 end
 
+task :_sprite do
+  sh "cp ../unite-sprite/sprite* ."
+end
+

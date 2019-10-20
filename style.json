@@ -199,6 +199,7 @@
       "type": "vector"
     }
   },
+  "sprite": "https://optgeo.github.io/bvmap714/sprite",
   "version": 8,
   "zoom": 11
 }
