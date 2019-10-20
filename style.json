@@ -132,9 +132,9 @@
       "paint": {
         "line-color": [
           "rgb",
-          0,
-          0,
-          0
+          100,
+          100,
+          100
         ]
       },
       "source": "v",
@@ -190,7 +190,7 @@
   "location": "https://optgeo.github.io/bvmap714",
   "sources": {
     "v": {
-      "attribution": "GSI",
+      "attribution": "Source: GSI Maps Vector",
       "maxzoom": 14,
       "minzoom": 7,
       "tiles": [
