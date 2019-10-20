@@ -18,6 +18,68 @@
       "type": "background"
     },
     {
+      "id": "lake",
+      "layout": {},
+      "paint": {
+        "line-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "lake",
+      "type": "line"
+    },
+    {
+      "id": "landforma",
+      "layout": {},
+      "paint": {
+        "fill-color": [
+          "rgb",
+          20,
+          90,
+          255
+        ]
+      },
+      "source": "v",
+      "source-layer": "landforma",
+      "type": "fill"
+    },
+    {
+      "id": "building",
+      "layout": {},
+      "paint": {
+        "fill-extrusion-color": [
+          "rgb",
+          255,
+          240,
+          190
+        ],
+        "fill-extrusion-height": 25
+      },
+      "source": "v",
+      "source-layer": "building",
+      "type": "fill-extrusion"
+    },
+    {
+      "id": "structurea",
+      "layout": {},
+      "paint": {
+        "fill-extrusion-color": [
+          "rgb",
+          255,
+          135,
+          75
+        ],
+        "fill-extrusion-height": 25
+      },
+      "source": "v",
+      "source-layer": "structurea",
+      "type": "fill-extrusion"
+    },
+    {
       "id": "coastline",
       "layout": {},
       "paint": {
@@ -45,21 +107,6 @@
       },
       "source": "v",
       "source-layer": "river",
-      "type": "line"
-    },
-    {
-      "id": "lake",
-      "layout": {},
-      "paint": {
-        "line-color": [
-          "rgb",
-          20,
-          90,
-          255
-        ]
-      },
-      "source": "v",
-      "source-layer": "lake",
       "type": "line"
     },
     {
@@ -185,6 +232,46 @@
       "source": "v",
       "source-layer": "transl",
       "type": "line"
+    },
+    {
+      "id": "landformp",
+      "layout": {
+        "icon-image": "refugee"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "landformp",
+      "type": "symbol"
+    },
+    {
+      "id": "transp",
+      "layout": {
+        "icon-image": "bus_station"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "transp",
+      "type": "symbol"
+    },
+    {
+      "id": "symbol",
+      "layout": {
+        "icon-image": "default"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "symbol",
+      "type": "symbol"
+    },
+    {
+      "id": "label",
+      "layout": {
+        "icon-image": "un"
+      },
+      "paint": {},
+      "source": "v",
+      "source-layer": "label",
+      "type": "symbol"
     }
   ],
   "location": "https://optgeo.github.io/bvmap714",
