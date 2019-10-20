@@ -25,4 +25,17 @@ A cache for experimental-bvmap z=[7..14] covering 7/113/50
 - landforma (pg)
 - label (pt)
 
-See also: https://maps.gsi.go.jp/help/pdf/vector/dataspec.pdf
+# zoom levels and the content
+According to the document, each zoom levels has the following content.
+
+- z=7 1:5,000,000
+- z=[8..10] 1:1,000,000
+- z=[11..13] 1:200,000
+- z=14 1:25,000
+
+The `maxzoom` of the actual GSI Vector tiles is 17. However, the `maxzoom` of this project is 14 to meet the maximum size of the GitHub repository.
+
+z=14 tiles are around 15,000 while z=17 tiles are around 1,000,000.
+
+# See also
+https://maps.gsi.go.jp/help/pdf/vector/dataspec.pdf
