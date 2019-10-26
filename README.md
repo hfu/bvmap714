@@ -3,6 +3,16 @@ A cache for experimental-bvmap z=[7..14] covering 7/113/50
 
 ![](https://un-vector-tile-toolkit.github.io/signature/logo.png)
 
+# how to use
+```console
+git clone https://github.com/optget/bvmap714
+cd bvmap714
+yarn
+vi hocon/style.conf
+rake build
+budo
+```
+
 # `source-layer` list
 - symbol (pt)
 - boundary (ls)
